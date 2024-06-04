@@ -1,0 +1,12 @@
+seed: 3105
+
+train_data_healthy: ./brain/ixi
+train_data_stroke: ./brain/atlas/test
+split_dir: ./data/splits
+
+target_size: !<tag:yaml.org,2002:seq> [128,128]
+batch_size: 32
+latent_dim: 64
+
+num_epochs: 200
+lr: 0.0002
